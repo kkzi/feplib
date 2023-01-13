@@ -32,4 +32,6 @@ sender->send("somefile.zip", [](auto &&progress) {
 ```
 
 
+### 编译
 
+目前只支持 msvc, 可使用 cmake 编译，也可使用 visual studio 2019 编译
